@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    // code here
+    if(n%5 == 0 && n%3 == 0) cout<<"FizzBuzz";
+    else if(n%3 == 0)cout<<"Fizz";
+    else if(n%5 == 0)cout<<"Buzz";
+    else cout<<n;
+
+    return 0;
+}
